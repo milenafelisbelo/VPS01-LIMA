@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('Mulan_fundo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container1 {
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    .textodapag h1 {
+        color: #d9534f;
+    }
+
+    .links nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            transition: color 0.3s;
+
+            &:hover {
+                color: #d9534f;
+            }
+        }
+    }
+}
+
+.container-sinopse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+
+    .sinopse-texto {
+        width: 60%;
+        padding-right: 20px;
+
+        h3 {
+            color: #d9534f;
+        }
+    }
+
+    .poster-filme img {
+        width: 250px;
+        border-radius: 8px;
+    }
+}
+
+.container-elenco {
+    text-align: center;
+    padding: 20px;
+
+    h3 {
+        color: #d9534f;
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            width: 180px;
+            transition: transform 0.3s;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+            }
+
+            h4 {
+                color: #d9534f;
+                margin: 10px 0;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                background-color: #d9534f;
+                padding: 5px 10px;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #b52d2b;
+                }
+            }
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+.container-trailer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+    h3 {
+        color: #d9534f;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        border-radius: 8px;
+    }
+}
+
+.container8 {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    color: #999;
+
+    a {
+        color: #d9534f;
+        text-decoration: none;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.container-curiosidades, .container-contato {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+.container-curiosidades h3, .container-contato h3 {
+    color: #d9534f;
+    margin-bottom: 15px;
+}
+
+.curiosidade-texto, .contato-texto {
+    color: #ccc;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.container-contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-contato label {
+    color: #d9534f;
+    margin-top: 10px;
+}
+
+.container-contato input[type="text"], 
+.container-contato input[type="email"], 
+.container-contato textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.container-contato button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d9534f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container-contato button:hover {
+    background-color: #b52d2b;
+}

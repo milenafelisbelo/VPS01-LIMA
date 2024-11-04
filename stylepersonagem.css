@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('Mulan_fundo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container-personagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    margin: 20px;
+
+    .personagem-info {
+        display: flex;
+        gap: 20px;
+
+        img {
+            width: 200px;
+            border-radius: 8px;
+        }
+
+        .detalhes {
+            color: #fff;
+
+            h3 {
+                color: #d9534f;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

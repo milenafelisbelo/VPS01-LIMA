@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mulan - Site de Filme</title>
+</head>
+
+<body>
+    <header>
+        <div class="container1">
+            <div class="textodapag">
+                <h1>Mulan - O Filme</h1>
+            </div>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="#sinopse">Sinopse</a></li>
+                        <li><a href="#elenco">Elenco</a></li>
+                        <li><a href="#trailer">Trailer</a></li>
+                        <li><a href="#curiosidades">Curiosidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="sinopse" class="container-sinopse">
+            <div class="sinopse-texto">
+                <h3>Sinopse</h3>
+                <p>Quando o Imperador da China emite um decreto que um homem de cada família deve servir no exército imperial, Mulan decide tomar o lugar de seu pai, que está doente. Assumindo a identidade de Hua Jun, ela se disfarça de homem para combater os invasores que estão atacando sua nação, provando-se uma grande guerreira.</p>
+            </div>
+            <div class="poster-filme">
+                <img src="mulan_capa.png" alt="Poster do Filme Mulan">
+            </div>
+        </div>
+
+        <div id="elenco" class="container-elenco">
+            <h3>Elenco Principal</h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="atriz_mulan.png" alt="Imagem do Ator 1">
+                    <h4>Liu Yifei/Mulan</h4>
+                    <a href="personagens.html">Saiba Mais</a>
+                </div>
+                <div class="card">
+                    <img src="donnie_yen.png" alt="Imagem do Ator 2">
+                    <h4>Donnie Yen/Comandante Tung</h4>
+                    <a href="personagens.html">Saiba Mais</a>
+                </div>
+                <div class="card">
+                    <img src="feiticeira.png" alt="Imagem do Ator 3">
+                    <h4>Gong Li/Xianniang</h4>
+                    <a href="personagens.html">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="trailer" class="container-trailer">
+            <h3>Trailer do Filme</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AD5cvVk-4Ps?si=N5y5T4qoFI7kOHpn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div id="curiosidades" class="container-curiosidades">
+            <h3>Curiosidades</h3>
+            <p>O filme foi inspirado no poema "Balada de Hua Mulan". 
+                A produção inicial era um curta chamado "Boneca Chinesa", mas foi alterada para o filme.</p>
+                O pai de Mulan pratica Tai Chi para treinar para a guerra, mas acaba machucando a perna novamente. Os movimentos que ele realiza são chamados de Mulan Quan, em homenagem à guerreira chinesa que inspirou o filme.</p>
+                Quando Mulan canta "Reflection" no templo do pai, o reflexo dela aparece nas pedras do local. As palavras escritas nas pedras são os nomes dos animadores da Disney, escritos em chinês arcaico.</p>
+                O filme é o primeiro da Disney a lidar abertamente com a guerra.</p>
+                Mulan é a personagem da Disney com o maior número de mortes de todos os tempos.</p>
+                A lenda de Mulan faz parte do folclore chinês e já esteve presente em livros, teatros, filmes e outros produtos culturais. </p>
+                A mensagem do filme é que as mulheres são inerentemente poderosas.</p>
+        </div>
+
+        <div id="contato" class="container-contato">
+            <h3>Contato</h3>
+            <p>Deixe sua opinião sobre o filme!</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="opiniao">Opinião:</label>
+                <textarea id="opiniao" name="opiniao" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="container8">
+        &copy; 2023 Mulan - O Filme. Todos os Direitos Reservados.
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a> | <a href="#">FAQ</a></p>
+    </footer>
+</body>
+
+</html>
